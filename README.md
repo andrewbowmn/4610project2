@@ -83,3 +83,11 @@
 | Column                      | Data Type | Description                    |
 |-----------------------------|-----------|--------------------------------|
 | **LATITUDE**, **LONGITUDE** | float64   | GPS geographic coordinates (2 Columns)  |
+
+## Questions & Analysis
+### 1. Are certain neighborhoods or wards experiencing a disproportionate amount of violent crime compared to property crime?
+![Question 1](./Question1.png)
+
+
+### 2. What shift (time of day) sees the highest rates of crime, and do these patterns vary by crime type?
+![Question 2](./Question2.png)
