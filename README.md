@@ -24,7 +24,7 @@
 |--------------------|-----------|------------------------------------------------|
 | **CCN**            | string    | Case Control Number (MPD’s unique incident ID) |
 | **OBJECTID**       | int64     | ArcGIS object ID                               |
-| **OCTO_RECORD_ID** | float64   | Open Data system record ID (all null)          |
+| **OCTO_RECORD_ID** | float64   | Open Data system record ID (all null, excluded from column count)          |
 
 
 
@@ -60,8 +60,8 @@
 
 | Column                | Data Type | Description                                           |
 |-----------------------|-----------|-------------------------------------------------------|
-| **X**, **Y**          | float64   | Projected (state‐plane) coordinates                   |
-| **XBLOCK**, **YBLOCK**| float64   | Block‐centroid in the same projected coordinate system|
+| **X**, **Y**          | float64   | X & Y Flat-Map Grid Coordinates (2 Columns)                  |
+| **XBLOCK**, **YBLOCK**| float64   | X & Y Flat-Map Grid Coordinates of specific block (2 Columns)|
 
 
 >Geographic identifiers
@@ -82,4 +82,4 @@
 
 | Column                      | Data Type | Description                    |
 |-----------------------------|-----------|--------------------------------|
-| **LATITUDE**, **LONGITUDE** | float64   | WGS 84 geographic coordinates  |
+| **LATITUDE**, **LONGITUDE** | float64   | GPS geographic coordinates (2 Columns)  |
