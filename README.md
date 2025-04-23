@@ -16,7 +16,7 @@
 - **Rows:** 29,288  
 - **Columns:** 24  
 
----
+### Column Breakdown
 
 >Unique identifiers
 
@@ -26,7 +26,7 @@
 | **OBJECTID**       | int64     | ArcGIS object ID                               |
 | **OCTO_RECORD_ID** | float64   | Open Data system record ID (all null)          |
 
----
+
 
 >Date/time fields
 
@@ -36,7 +36,6 @@
 | **START_DATE** | string    | Incident start timestamp (ISO with time zone)           |
 | **END_DATE**   | string    | Incident end timestamp (ISO with time zone)             |
 
----
 
 >Incident attributes
 
@@ -46,7 +45,7 @@
 | **METHOD**  | string    | Method/weapon used (e.g. “GUN”, “KNIFE”)    |
 | **OFFENSE** | string    | Offense type (e.g. “ROBBERY”, “ASSAULT”)    |
 
----
+
 
 >Location descriptor
 
@@ -55,7 +54,7 @@
 | **BLOCK**  | string    | Street‐block address (e.g. “1500 BLOCK OF PENNSYLVANIA AVE NW”)     |
 | **BID**    | string    | Business Improvement District code (may be blank)                  |
 
----
+
 
 >Planar coordinates
 
@@ -64,7 +63,6 @@
 | **X**, **Y**          | float64   | Projected (state‐plane) coordinates                   |
 | **XBLOCK**, **YBLOCK**| float64   | Block‐centroid in the same projected coordinate system|
 
----
 
 >Geographic identifiers
 
@@ -79,7 +77,6 @@
 | **CENSUS_TRACT**          | float64   | U.S. Census tract                        |
 | **VOTING_PRECINCT**       | string    | Voting precinct label                    |
 
----
 
 >Geographic coordinates
 
