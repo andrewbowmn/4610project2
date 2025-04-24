@@ -33,18 +33,18 @@ This project takes a look into the "Crime Incidents in 2024" out of the District
 
 | Column         | Data Type | Description                                             |
 |----------------|-----------|---------------------------------------------------------|
-| **REPORT_DAT** | string    | When the incident was reported (ISO format)             |
-| **START_DATE** | string    | Incident start timestamp (ISO with time zone)           |
-| **END_DATE**   | string    | Incident end timestamp (ISO with time zone)             |
+| **REPORT_DAT** | string    | When the incident was reported             |
+| **START_DATE** | string    | Incident start timestamp           |
+| **END_DATE**   | string    | Incident end timestamp             |
 
 
 >Incident attributes
 
 | Column    | Data Type | Description                                  |
 |-----------|-----------|----------------------------------------------|
-| **SHIFT**   | string    | MPD shift code (e.g. “DAY”, “SWING”, “MID”) |
-| **METHOD**  | string    | Method/weapon used (e.g. “GUN”, “KNIFE”)    |
-| **OFFENSE** | string    | Offense type (e.g. “ROBBERY”, “ASSAULT”)    |
+| **SHIFT**   | string    | MPD shift code (“DAY”, “SWING”, “MID”) |
+| **METHOD**  | string    | Method/weapon used (“GUN”, “KNIFE”)    |
+| **OFFENSE** | string    | Offense type (“ROBBERY”, “ASSAULT”)    |
 
 
 
@@ -52,8 +52,8 @@ This project takes a look into the "Crime Incidents in 2024" out of the District
 
 | Column     | Data Type | Description                                                        |
 |------------|-----------|--------------------------------------------------------------------|
-| **BLOCK**  | string    | Street‐block address (e.g. “1500 BLOCK OF PENNSYLVANIA AVE NW”)     |
-| **BID**    | string    | Business Improvement District code (may be blank)                  |
+| **BLOCK**  | string    | Street‐block address (“1500 BLOCK OF PENNSYLVANIA AVE NW”)     |
+| **BID**    | string    | Business Improvement District code (some null)                  |
 
 
 
