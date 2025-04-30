@@ -88,6 +88,7 @@ This project takes a look into the "Crime Incidents in 2024" out of the District
 ## Questions & Analysis
 ### 1. Are certain neighborhoods or wards experiencing a disproportionate amount of violent crime compared to property crime?
 ![Question 1](./Question1.png)
+![Question 1](./Question1b.png)
 #### Importance:
 - Pinpointing areas with unusually high violent-vs-property crime ratios helps law enforcement deploy specialized units, adjust patrol hours, and invest in community programs where they’ll have the greatest impact.
 - Neighborhoods saddled with more violent crime often face deeper issues—under-resourcing, economic disinvestment, or lack of youth services. Highlighting these hotspots can drive targeted social and economic interventions.
@@ -107,6 +108,7 @@ This project takes a look into the "Crime Incidents in 2024" out of the District
 
 ### 2. What shift (time of day) sees the highest rates of crime, and do these patterns vary by crime type?
 ![Question 2](./Question2.png)
+![Question 2](./Question2b.png)
 #### Importance:
 - Knowing peak crime hours enables police to schedule patrols and allocate officers where and when they’re needed most, reducing response times and improving coverage.
 - Understanding temporal patterns supports targeted community outreach (such as neighborhood watches or lighting improvements) during vulnerable hours.
