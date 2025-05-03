@@ -126,7 +126,6 @@ This project takes a look into the "Crime Incidents in 2024" out of the District
 No manipulations were required to the data in order to perform our analysis. 
 
 ### Tableau Packaged Workbook
-![Now Available](https://img.shields.io/badge/Coming%20Soon-yellow?style=flat-square)
 | Workbook                              | Description                    |
 |---------------------------------------|--------------------------------|
 | [Part 1 of Question 1.twb](Part%201%20of%20Question%201.twb) | Q1 – first half                |
